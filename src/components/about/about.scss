@@ -1,0 +1,37 @@
+@import "../../global.scss";
+
+.about {
+  padding-top: 5%;
+  height: 100vh;
+  background-color: #1a2930;
+  h1 {
+    color: #f7ce3e;
+    overflow-y: hidden;
+    @include mobile {
+      font-size: 50px;
+    }
+  }
+  h5 {
+    color: #c5c1c0;
+  }
+  .a {
+    > * {
+      color: #f7ce3e;
+      font-weight: 100;
+      padding-left: 2%;
+
+      &:hover {
+        color: white;
+      }
+    }
+  }
+  .arrow {
+    animation: arrowBlink 2s infinite;
+    font-size: 30px;
+  }
+  @keyframes arrow {
+    100% {
+      opacity: 0.2;
+    }
+  }
+}
