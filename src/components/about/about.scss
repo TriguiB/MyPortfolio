@@ -2,7 +2,7 @@
 
 .about {
   padding-top: 5%;
-  height: 100vh;
+
   background-color: #1a2930;
   h1 {
     color: #f7ce3e;
@@ -15,6 +15,7 @@
     color: #c5c1c0;
   }
   .a {
+    margin-bottom: 200px;
     > * {
       color: #f7ce3e;
       font-weight: 100;

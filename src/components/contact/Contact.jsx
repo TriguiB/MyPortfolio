@@ -71,7 +71,11 @@ export default function Contact() {
               }}
             />
           </Grid>
-          <Grid item xs={12} style={{ width: "100%", marginTop: "10px" }}>
+          <Grid
+            item
+            xs={12}
+            style={{ width: "100%", marginTop: "10px", marginBottom: "40px" }}
+          >
             <Button
               sx={{ width: 400 }}
               variant="contained"

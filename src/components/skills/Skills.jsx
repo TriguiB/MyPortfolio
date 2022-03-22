@@ -6,7 +6,7 @@ import { data } from "../../data/data";
 import CardSkills from "./CardSkills";
 export default function Skills() {
   return (
-    <div className="skills">
+    <div className="skills" id="skills">
       <Grid container>
         <Grid item xs={12} align={"center"}>
           <Typography variant="h2">Skills & Technologies</Typography>
@@ -17,7 +17,7 @@ export default function Skills() {
           </Typography>
         </Grid>
 
-        <Grid item xs={12} style={{ marginTop: "60px" }}>
+        <Grid item xs={12} style={{ marginTop: "60px", marginBottom: "50px" }}>
           <SliderSkills />
         </Grid>
       </Grid>
