@@ -3,6 +3,7 @@ import KeyboardArrowDownIcon from "@mui/icons-material/KeyboardArrowDown";
 import "./intro.scss";
 import { init } from "ityped";
 import { useEffect, useRef } from "react";
+import image from "./image.png";
 export default function Intro() {
   const textRef = useRef();
   useEffect(() => {
@@ -17,7 +18,7 @@ export default function Intro() {
     <div className="intro" id="intro">
       <div className="left">
         <div className="imageContainer">
-          <img src="assets/image.png"></img>
+          <img src={image}></img>
         </div>
       </div>
       <div className="right">
